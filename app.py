@@ -378,7 +378,7 @@ def main():
     # ACTO 1 — EL GANCHO: tu racha y lo que te ahorró (un solo panel)
     # ====================================================================== #
     with st.container(border=True):
-        st.markdown("### 🏋️ Calistenia Financiera")
+        st.markdown("### La Racha Financiera")
         st.markdown("<p class='seccion-intro'>Cada día sin gasto hormiga es una "
                     "repetición. Esta es tu constancia, hecha visible.</p>",
                     unsafe_allow_html=True)
