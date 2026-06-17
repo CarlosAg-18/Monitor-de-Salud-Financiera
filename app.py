@@ -59,11 +59,15 @@ st.markdown(
             padding: 18px 20px;
             box-shadow: 0 1px 3px rgba(27,42,74,0.05);
         }
+        div[data-testid="stMetricLabel"],
         div[data-testid="stMetricLabel"] p {
-            color: #7A7567; font-weight: 600; letter-spacing: .3px;
+            color: #6E6A5E !important; opacity: 1 !important;
+            font-weight: 600; letter-spacing: .3px;
             text-transform: uppercase; font-size: .72rem;
         }
-        div[data-testid="stMetricValue"] { color: #1B2A4A; font-weight: 700; }
+        div[data-testid="stMetricValue"] { color: #1B2A4A !important; font-weight: 700; }
+        /* Texto del sidebar siempre legible */
+        section[data-testid="stSidebar"] * { color: #33373D; }
         /* Encabezados */
         h1, h2, h3 { color: #1B2A4A; font-weight: 700; }
         /* Pestañas */
