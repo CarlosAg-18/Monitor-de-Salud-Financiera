@@ -1,0 +1,11 @@
+# .streamlit/config.toml
+# Tema "Quiet Wealth": fija modo claro, navy/olivo/beige y elimina el rojo
+# por defecto de Streamlit (sliders, acentos) reemplazándolo por olivo.
+
+[theme]
+base = "light"
+primaryColor = "#6B7B3A"              # Olivo: sliders, focos y acentos
+backgroundColor = "#FBFAF6"           # Blanco hueso de fondo
+secondaryBackgroundColor = "#F1EDE3"  # Beige del sidebar y contenedores
+textColor = "#33373D"                 # Tinta: texto principal legible
+font = "sans serif"
